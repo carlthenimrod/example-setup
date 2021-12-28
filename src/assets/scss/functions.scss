@@ -1,0 +1,3 @@
+@function theme-color($color) {
+  @return map-get($theme-colors, $color);
+}

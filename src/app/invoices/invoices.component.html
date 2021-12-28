@@ -1,0 +1,15 @@
+<h2>Invoices Module</h2>
+
+<p>This is invoices module.</p>
+
+<tem-example></tem-example>
+
+<ng-container *ngIf="example$ | async as example">
+  <p>You have been on this module for {{ example.currentCount }} seconds</p>
+
+  <p>Current Time: {{ example.currentTime }}</p>
+</ng-container>
+
+<nav>
+  <button routerLink="/">Go Back Home</button>
+</nav>

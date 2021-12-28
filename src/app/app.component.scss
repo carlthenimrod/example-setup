@@ -1,0 +1,23 @@
+@import 'functions';
+@import 'variables';
+@import 'mixins';
+
+:host {
+  display: block;
+
+  h1 {
+    margin: 0;
+    padding: 1rem 1rem 2rem 1rem;
+  }
+}
+
+nav {
+  align-items: center;
+  display: flex;
+  padding: 1rem 1rem 2rem 1rem;
+
+  button {
+    @include button(primary);
+    margin-right: 1rem;
+  }
+}

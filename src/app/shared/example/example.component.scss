@@ -1,0 +1,12 @@
+@import 'functions';
+@import 'variables';
+
+:host {
+  display: block;
+
+  p {
+    color: theme-color(success);
+    font-weight: 700;
+    padding: 1rem 0;
+  }
+}
